@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "./colors.css";
+
+@tailwind utilities;
+
+.app {
+    @apply flex flex-col min-h-screen;
+}
+
+.logo {
+    @apply flex h-45 justify-center items-center;
+}
+
+.logo-img {
+    @apply h-60 w-60 rounded-4xl;
+}
+
+.menu {
+    @apply flex justify-evenly bg-bgLight h-14 justify-center items-center;
+}
+
+.main-content {
+    @apply flex-1;
+}
+
+.footer {
+    @apply flex justify-center items-center h-16 bg-bgLight text-sm;
+}
