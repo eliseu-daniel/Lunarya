@@ -12,8 +12,11 @@ export default function Dashboard() {
                 <Menu />
             </div>
             <main className='main-content'>
-                <h1>Bem-vindo ao Dashboard</h1>
-                <p>Esta é a página principal do seu aplicativo.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim a vitae
+                    corporis expedita error, quidem nisi accusantium iste illum sit dolor alias quaerat
+                    molestias debitis quasi eum at tempore!
+                </p>
             </main>
             <Footer />
         </div>
