@@ -1,6 +1,7 @@
 import Menu from "../components/Menu";
 import logo from '../assets/logo.png'
 import Footer from "../components/Footer";
+import Card from "../components/Card";
 
 export default function Dashboard() {
     return (
@@ -12,11 +13,9 @@ export default function Dashboard() {
                 <Menu />
             </div>
             <main className='main-content'>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum enim a vitae
-                    corporis expedita error, quidem nisi accusantium iste illum sit dolor alias quaerat
-                    molestias debitis quasi eum at tempore!
-                </p>
+                <Card />
+                <Card />
+                <Card />
             </main>
             <Footer />
         </div>

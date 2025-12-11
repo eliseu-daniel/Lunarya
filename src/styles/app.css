@@ -21,9 +21,25 @@
 }
 
 .main-content {
-    @apply flex-1 flex items-center justify-center;
+    @apply flex-1 flex flex-wrap justify-center gap-3 p-4;
 }
 
 .footer {
     @apply flex justify-center items-center h-16 bg-bgLight text-sm;
+}
+
+.card {
+    @apply flex flex-col justify-center items-center bg-white shadow-md rounded-lg w-60 h-60;
+}
+
+.imgCard {
+    @apply w-40 h-40;
+}
+
+.textCard {
+    @apply text-center mt-2 text-sm;
+}
+
+.priceCard {
+    @apply text-center mt-1 font-bold text-lg;
 }
