@@ -1,10 +1,13 @@
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
+
 import logo from '../assets/logo.png'
 import saia from "../assets/saia.png";
 import macacao from "../assets/macacaoCanelado.png";
 import top from "../assets/topMangaLonga.png";
+import Banner from "../components/Banner";
+import bannerImg from "../assets/banner.png";
 
 export default function Dashboard() {
     return (
@@ -14,6 +17,9 @@ export default function Dashboard() {
             </div>
             <div className='menu-container'>
                 <Menu />
+            </div>
+            <div className="banner-container">
+                <Banner imgBanner={bannerImg} />
             </div>
             <main className='main-content'>
                 <Card img={saia} text="Conjunto Esportivo Academia Top com Shorts Saia Suplex" price="61,49" />
